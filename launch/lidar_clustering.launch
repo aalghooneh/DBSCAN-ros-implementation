@@ -1,0 +1,43 @@
+<launch>
+    <arg name="topic_input" default="/rslidar_points_combined/ROI/no_ground"/>
+    <arg name="topic_output" default="/dbscan_clustering/clusters"/>
+    <node pkg="adaptive_lidar_clustering" type="adaptive_lidar_clustering_node" name="lidar_clustering_node" output="screen">
+    <param name="topic_input" value="$(arg topic_input)" />
+    <param name="topic_output" value="$(arg topic_output)" />
+    <param name="obj_width_thre" value="0.09" />
+    <param name="obj_height_thre" value="0.3" />
+    <param name="downsample_resolution" value="0.03" />
+    <param name="lidar_horizon_resolution" value="0.15" />
+    <param name="lidar_vectical_resolution" value="1.0" />
+    </node>
+</launch>
+
+
+<!-- <launch>
+    <arg name="topic_input" default="/rslidar_points_combined/ROI/no_ground"/>
+    <arg name="topic_output" default="/dbscan_clustering/clusters"/>
+    <node pkg="adaptive_lidar_clustering" type="adaptive_lidar_clustering_node" name="lidar_clustering_node" output="screen">
+    <param name="topic_input" value="$(arg topic_input)" />
+    <param name="topic_output" value="$(arg topic_output)" />
+    <param name="obj_width_thre" value="0.09" />
+    <param name="obj_height_thre" value="0.1" />
+    <param name="downsample_resolution" value="0.03" />
+    <param name="lidar_horizon_resolution" value="0.3" />
+    <param name="lidar_vectical_resolution" value="1.0" />
+    </node>
+</launch> -->
+
+
+<!-- <launch>
+    <arg name="topic_input" default="/rslidar_points_combined/ROI/no_ground"/>
+    <arg name="topic_output" default="/dbscan_clustering/clusters"/>
+    <node pkg="adaptive_lidar_clustering" type="adaptive_lidar_clustering_node" name="lidar_clustering_node" output="screen">
+    <param name="topic_input" value="$(arg topic_input)" />
+    <param name="topic_output" value="$(arg topic_output)" />
+    <param name="obj_width_thre" value="0.09" />
+    <param name="obj_height_thre" value="0.45" />
+    <param name="downsample_resolution" value="0.03" />
+    <param name="lidar_horizon_resolution" value="0.15" />
+    <param name="lidar_vectical_resolution" value="1.0" />
+    </node>
+</launch> -->
