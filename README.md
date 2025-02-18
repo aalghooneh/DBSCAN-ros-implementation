@@ -1,4 +1,4 @@
-# DBSCAN ROS C++ &mdash; 
+# DBSCAN ROS C++:
 
 **Welcome to the ultimate clustering carnage.** This ROS package harnesses the power of DBSCAN (Density-Based Spatial Clustering of Applications with Noise) to obliterate unorganized data points in your 2D/3D space and group them into meaningful clusters. No more messing around—we're going full throttle. Buckle up.
 
