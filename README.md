@@ -148,7 +148,7 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This code is provided under [Your Preferred License](LICENSE). Please refer to the [LICENSE](LICENSE) file for details.
+This code is provided under [MIT](LICENSE). Please refer to the [LICENSE](LICENSE) file for details.
 
 ## Thank You
 
