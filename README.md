@@ -1,4 +1,4 @@
-# dbscan_ros
+# DBSCAN_ROS
 
 A high-performance **Adaptive DBSCAN clustering** ROS node that segments point clouds into clusters for downstream perception tasks. It processes a filtered LiDAR point cloud, runs adaptive DBSCAN clustering, and outputs:
 
